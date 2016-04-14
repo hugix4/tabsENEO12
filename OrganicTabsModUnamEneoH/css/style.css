@@ -1,0 +1,30 @@
+* { margin: 0; padding: 0; }
+html, body, #bg, #bg table, #bg td, #cont{ font: 14px Sans-Serif, serif; color: white; height:100%;width:100%;overflow:hidden;}
+/*html { overflow-y: scroll; }*/
+a { text-decoration: none; }
+a:focus { outline: 0; }
+#imgHead {width: 900px; margin: 0px auto;}
+#page-wrap { width: 501px; margin: 10px auto; }
+h1 { font: bold 40px Sans-Serif; margin: 0 0 20px 0; }
+#texto-inicial{ width: 900px; margin: -100 0; }
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+#example-two .list-wrap { background: #050550; padding: 0px; margin: 0 0 15px 0; }
+#example-two ul { list-style: none; }
+#example-two ul li a { display: block; border-bottom: 1px solid #ddb541; padding: 4px; color: #ddb541; }
+#example-two ul li a:hover { background: #ddb541; color: #050550;}
+#example-two ul li:last-child a { border: none; }
+#example-two .nav { overflow: hidden; }
+#example-two .nav li { width: 160px; float: left; margin: 0 6px 0 0; }
+#example-two .nav li.last { margin-right: 0; }
+#example-two .nav li a { display: block; padding: 4px; background: #0e0ea4; color: white; font-size: 15px; text-align: center; border: 0; }
+#example-two li a.current,#example-two li a.current:hover { background-color: #050550 !important; color: #ddb541; }
+#example-two .nav li a:hover, #example-two .nav li a:focus { background: #ddb541;}
+
+#bg { position: fixed;}
+#bg div {height:200%;left:-50%;position:absolute;top:-50%;width:200%;}
+#bg td {text-align:center; vertical-align:middle;}
+#bg img {margin:0 auto;min-height:50%;min-width:50%;}
+#cont {position:absolute;top:0;left:0;z-index:70;overflow:auto;}
+.box {margin: 0 auto;width: 400px;padding: 50px;background: blue;padding-bottom:100px;font: 14px/2.8 Georgia, Serif;}
